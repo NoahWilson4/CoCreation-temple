@@ -1,0 +1,33 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset="utf-8")
+        title CoCreation
+
+        link(rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css")
+        link(href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet")
+        //- link(rel="stylesheet" type="text/css" href="../styles/main.css")
+        link(rel="stylesheet" type="text/css" href="../dist/styles.css")
+    body
+        .container-fluid
+
+            #nav
+            
+            #cocreation
+
+            #create-user
+
+
+        script(src="../scripts/temple.js")
+        script(src="../scripts/bundle.js")
+        script.
+            var $ = require('jquery');
+            var _ = require('underscore');
+            var Backbone = require('backbone');
+            Backbone.$ = window.$;
+        script(src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js")
+        script(src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js")
+        //- script(src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.2/backbone-min.js")
+        script(src="../dist/templates.js")
+        script(src="../dist/built.js")
+

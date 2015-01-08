@@ -1,0 +1,55 @@
+
+<div class="navbar navbar-inverse navbar-fixed-top tonetribe-navbar" role="navigation">
+
+    <div class="container-fluid nav-main">
+        <div class="navbar-header">
+
+            <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only Toggle navigation"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand"> 
+                <div id="tonetribe-logo"><strong>ToneTribe</strong></div>
+            </a>
+        </div>
+        <div class="navbar-collapse collapse pull-left">
+            <ul class="nav navbar-nav">
+                <li><a id="navt" href="/profile-user"> Profile </a></li>
+                <li><a id="navt" href="/live-stream"> LiveStream</a></li>
+                <li><a id="navt" href="/cocreation"> CoCreation</a></li>
+            </ul>
+        </div>    
+        <div class="navbar-collapse collapse pull-right">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a id="navt" href="#" class="dropdown-toggle" data-toggle="dropdown"> Connect
+                        <i id="nav-caret" class="fa fa-chevron-down"></i>
+                    </a>
+                    <ul id="dd-menu" class="dropdown-menu" role="menu">
+                        <li><a id="navbar-search" href="/search"> Search for Musicians and Bands </a></li>
+                        <li><a href="/cocreation"> Co-Creation </a></li>
+                        <li><a href="/live-stream"> LiveStream </a></li>
+
+                        <li id="dd-header"> Search Classifieds </li>
+                        <li><a href="#"> Looking for Musicians </a></li>
+                        <li><a href="#"> Equipment and Services </a></li>
+                    </ul>
+                </li>
+                <li class="nav-username dropdown navbar-right">
+                    
+                    <a id="navt" href="#" class="dropdown-toggle" data-toggle="dropdown"> {{userName}}
+                        <i id="nav-caret" class="fa fa-chevron-down"></i>
+                    </a>
+                    <ul id="dd-menu" class="dropdown-menu" role="menu">
+                        <li><a> Messages </a></li>
+                        <li><a> Notifications </a></li>
+                        <li class="divider"></li>
+                        <li><a href="/auth/logout"> Logout </a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

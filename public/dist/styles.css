@@ -1,0 +1,78 @@
+.pad {
+  padding: 10px 15px;
+}
+
+.song-outer-container {
+  width: 95%;
+  min-width: 250px;
+  margin: 50px auto;
+  min-height: 100px;
+  background-color: lightgray;
+  padding-top: 5px;
+  padding-bottom: 50px;
+}
+.song-inner-container {
+  width: 95%;
+  min-width: 250px;
+  margin: auto;
+  height: 95%;
+  min-height: 90px;
+  border: 1px solid lightgray;
+  background-color: white;
+}
+.song-header {
+  position: relative;
+  background: #BEC3BB;
+  background-image: ;
+}
+.visuals-main {
+  height: 300px;
+}
+.song-info {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background: #9ea5a4;
+  padding: 10px;
+}
+#track-container {
+  padding: 0px;
+  margin-bottom: 0px;
+}
+
+.track-content {
+  background: white;
+  padding: 10px;
+  border: 1px solid lightgray;
+  width: 80%;
+}
+
+.track-li {
+  list-style-type: none;
+}
+.track-container {
+  position: relative;
+  padding: 10px;
+  background-color: whitesmoke;
+  border: 1px solid gray;
+}
+.visuals {
+  position: absolute;
+}
+.instrument-input {
+  position: absolute;
+  bottom: 0px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background: rgba(50, 50, 50, 0.5);
+  padding: 30px 10px;
+}
+
+body {
+  background: whitesmoke;
+  margin-top: 50px;
+}
+.margin-top {
+  margin-top: 50px;
+}
